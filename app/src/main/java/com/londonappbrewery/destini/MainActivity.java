@@ -68,6 +68,8 @@ public class MainActivity extends AppCompatActivity {
 
                 } else {
                     story.setText(mStoryBank[5]);
+                    topButton.setVisibility(View.GONE);
+                    botButton.setVisibility(View.GONE);
                 }
 
             }
@@ -83,8 +85,12 @@ public class MainActivity extends AppCompatActivity {
                     index = 1;
                 } else if (index == 1){
                     story.setText(mStoryBank[3]);
+                    topButton.setVisibility(View.GONE);
+                    botButton.setVisibility(View.GONE);
                 } else {
                     story.setText(mStoryBank[4]);
+                    topButton.setVisibility(View.GONE);
+                    botButton.setVisibility(View.GONE);
                 }
 
             }
